@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet">
+    <title>Parcial de Practica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #005A82;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #005A82;
+        }
+        .container {
+            width: 400px;
+            margin: 200px auto;
+            padding: 40px;
+            background-color: #091428;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            border: 0;
+            width: 90%;
+            margin-top: 10px;
+            margin-right: 5px;
+            padding-left: 15px;
+            text-decoration: none;
+            background-image: linear-gradient(150deg, #DFAF1C, #9AAFD4, #CA1B15);
+            border-radius: 3px;
+            color: #fff;
+            display: flex;
+            font-size: 18px;
+            padding: 4px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        
+        button span{
+            background-color: #111;
+            width: 94%;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: .3s;
+        }
+        button:hover span{
+            background: none;
+        }
+        
+        button:active {
+            transform: scale(0.9);
+        }
+        
+        button.register {
+            border: 0;
+            width: 90%;
+            margin-top: 10px;
+            margin-right: 5px;
+            padding-left: 15px;
+            text-decoration: none;
+            background-image: linear-gradient(150deg, #DFAF1C, #9AAFD4, #CA1B15);
+            border-radius: 3px;
+            color: #fff;
+            display: flex;
+            font-size: 18px;
+            padding: 4px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        
+        button span{
+            background-color: #111;
+            width: 90%;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: .3s;
+        }
+        button:hover span{
+            background: none;
+        }
+        
+        button:active {
+            transform: scale(0.9);
+        }    
+    </style>
+    <script>
+        function redirectToRegistro() {
+            window.location.href = "RegistroView"; 
+        }
+        function redirectToRegistro() {
+                window.location.href = "/registro/"; 
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Colegio Superior Florentino Ameghino</h1>
+        <button>
+            <span>Iniciar sesion</span>
+        </button> 
+            <button onclick="RegistroView">
+                    <span>Registrarse</span>
+                </a>
+            </button>
+    </div>
+</body>
+</html>
